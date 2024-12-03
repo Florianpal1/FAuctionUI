@@ -1,0 +1,214 @@
+gui:
+  size: 54
+  name: "Mes objets expirés"
+  title: "&x&F&F&A&7&5&1{ItemName}"
+  description:
+    - "{lore}"
+    - ""
+    - "&7Vente de : &x&F&F&E&2&5&9{OwnerName}"
+    - "&7Prix fixé : &x&F&F&E&2&5&9{Price} Suns"
+    - "&7A expiré le : &x&F&F&E&2&5&9{ExpireTime}"
+block:
+  '0':
+    utility: barrier
+    material: GRAY_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '1':
+    utility: barrier
+    material: GRAY_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '2':
+    utility: barrier
+    material: GRAY_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '3':
+    utility: barrier
+    material: GRAY_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '4':
+    utility: barrier
+    material: GRAY_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '5':
+    utility: barrier
+    material: GRAY_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '6':
+    utility: barrier
+    material: GRAY_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '7':
+    utility: barrier
+    material: GRAY_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '8':
+    utility: barrier
+    material: GRAY_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '9':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '10':
+    utility: expire
+  '11':
+    utility: expire
+  '12':
+    utility: expire
+  '13':
+    utility: expire
+  '14':
+    utility: expire
+  '15':
+    utility: expire
+  '16':
+    utility: expire
+  '17':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '18':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '19':
+    utility: expire
+  '20':
+    utility: expire
+  '21':
+    utility: expire
+  '22':
+    utility: expire
+  '23':
+    utility: expire
+  '24':
+    utility: expire
+  '25':
+    utility: expire
+  '26':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '27':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '28':
+    utility: expire
+  '29':
+    utility: expire
+  '30':
+    utility: expire
+  '31':
+    utility: expire
+  '32':
+    utility: expire
+  '33':
+    utility: expire
+  '34':
+    utility: expire
+  '35':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '36':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '37':
+    utility: expire
+  '38':
+    utility: expire
+  '39':
+    utility: expire
+  '40':
+    utility: expire
+  '41':
+    utility: expire
+  '42':
+    utility: expire
+  '43':
+    utility: expire
+  '44':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '45':
+    utility: auctionGui
+    material: BARRIER
+    title: "&x&F&F&A&7&5&1Retour"
+    description:
+      - "&7Retour"
+  '46':
+    utility: barrier
+    material: GRAY_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '47':
+    utility: barrier
+    material: GRAY_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '48':
+    utility: previous
+    material: ARROW
+    title: "&x&F&F&A&7&5&1Page précédente"
+    description:
+      - "&7Cliquez ici pour retourner à la page précédente"
+    replacement:
+      material: GRAY_STAINED_GLASS_PANE
+      title: " "
+      description: {}
+  '49':
+    utility: barrier
+    material: PLAYER_HEAD
+    texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY0MzlkMmUzMDZiMjI1NTE2YWE5YTZkMDA3YTdlNzVlZGQyZDUwMTVkMTEzYjQyZjQ0YmU2MmE1MTdlNTc0ZiJ9fX0="
+    title: "&x&F&F&A&7&5&1Informations"
+    description:
+      - "&7Ici, sont rangés les objets"
+      - "&7ayant dépassé le délai d'expiration."
+      - ""
+      - "&x&F&F&E&2&5&9Clic gauche &fsur un objet pour"
+      - "&fle récupérer !"
+  '50':
+    utility: next
+    material: ARROW
+    title: "&x&F&F&A&7&5&1Page suivante"
+    description:
+      - "&7Cliquez ici pour aller à la page suivante"
+    replacement:
+      material: GRAY_STAINED_GLASS_PANE
+      title: " "
+      description: {}
+  '51':
+    utility: barrier
+    material: GRAY_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '52':
+    utility: barrier
+    material: GRAY_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '53':
+    utility: barrier
+    material: GRAY_STAINED_GLASS_PANE
+    title: " "
+    description: {}

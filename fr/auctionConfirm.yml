@@ -1,0 +1,142 @@
+gui:
+  size: 27
+  name: "Confirmation d'achat"
+  title-true: "&x&F&F&A&7&5&1Confirmer l'achat de &7{Item}"
+  title-false: "&x&F&F&A&7&5&1Annuler"
+  description:
+    - "&7Vendu par : &x&F&F&E&2&5&9{OwnerName}"
+    - "&7Prix: &x&F&F&E&2&5&9{Price}"
+block:
+  '0':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '1':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '2':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '3':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '4':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '5':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '6':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '7':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '8':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '9':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '10':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '11':
+    utility: confirm
+    material: RED_CONCRETE
+    value: false
+  '12':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '13':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '14':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '15':
+    utility: confirm
+    material: LIME_CONCRETE
+    value: true
+  '16':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '17':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '18':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '19':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '20':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '21':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '22':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '23':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '24':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '25':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '26':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}

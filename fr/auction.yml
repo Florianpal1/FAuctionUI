@@ -1,0 +1,200 @@
+gui:
+  size: 54
+  name: "Hôtel des ventes {Page}/{TotalPage}"
+  title: "&x&F&F&A&7&5&1{ItemName}"
+  description:
+    - "{lore}"
+    - ""
+    - "&7Vendu par : &x&F&F&E&2&5&9{OwnerName}"
+    - "&7Prix : &x&F&F&E&2&5&9{Price} Suns"
+    - "&7Expirera le : &x&F&F&E&2&5&9{ExpireTime}"
+block:
+  '0':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '1':
+    utility: auction
+  '2':
+    utility: auction
+  '3':
+    utility: auction
+  '4':
+    utility: auction
+  '5':
+    utility: auction
+  '6':
+    utility: auction
+  '7':
+    utility: auction
+  '8':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '9':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '10':
+    utility: auction
+  '11':
+    utility: auction
+  '12':
+    utility: auction
+  '13':
+    utility: auction
+  '14':
+    utility: auction
+  '15':
+    utility: auction
+  '16':
+    utility: auction
+  '17':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '18':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '19':
+    utility: auction
+  '20':
+    utility: auction
+  '21':
+    utility: auction
+  '22':
+    utility: auction
+  '23':
+    utility: auction
+  '24':
+    utility: auction
+  '25':
+    utility: auction
+  '26':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '27':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '28':
+    utility: auction
+  '29':
+    utility: auction
+  '30':
+    utility: auction
+  '31':
+    utility: auction
+  '32':
+    utility: auction
+  '33':
+    utility: auction
+  '34':
+    utility: auction
+  '35':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '36':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '37':
+    utility: auction
+  '38':
+    utility: auction
+  '39':
+    utility: auction
+  '40':
+    utility: auction
+  '41':
+    utility: auction
+  '42':
+    utility: auction
+  '43':
+    utility: auction
+  '44':
+    utility: barrier
+    material: WHITE_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '45':
+    utility: player
+    material: CHEST
+    title: "&x&F&F&A&7&5&1Mes objets en vente"
+    description:
+      - "&7Cliquez ici pour voir vos objets actuellement en vente"
+    replacement:
+      material: BARRIER
+      title: "&x&F&F&A&7&5&1Retour à l'Hôtel des Ventes"
+      description:
+        - "&7Cliquez ici pour retourner à l'Hôtel des Ventes"
+  '46':
+    utility: expire
+    material: CHEST_MINECART
+    title: "&x&F&F&A&7&5&1Mes objets expirés"
+    description: 
+      - "&7Cliquez ici pour voir vos objets expirés non vendus"
+  '47':
+    utility: barrier
+    material: GRAY_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '48':
+    utility: previous
+    material: ARROW
+    title: "&x&F&F&A&7&5&1Page précédente"
+    description:
+      - "&7Cliquez ici pour retourner à la page précédente"
+    replacement:
+      material: GRAY_STAINED_GLASS_PANE
+      title: " "
+      description: {}
+  '49':
+    utility: barrier
+    material: PLAYER_HEAD
+    texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY0MzlkMmUzMDZiMjI1NTE2YWE5YTZkMDA3YTdlNzVlZGQyZDUwMTVkMTEzYjQyZjQ0YmU2MmE1MTdlNTc0ZiJ9fX0="
+    title: "&x&F&F&A&7&5&1Informations"
+    description:
+      - "&7Bienvenue dans l'&x&F&F&E&2&5&9Hôtel des Ventes &7!"
+      - "&7Ici, les joueurs peuvent vendre"
+      - "&7et acheter des objets."
+      - ""
+      - "&fPour vendre un objet, vous devez faire:"
+      - "&x&F&F&E&2&5&9/ah sell &x&F&F&A&7&5&1<&x&F&F&E&2&5&9montant&x&F&F&A&7&5&1>"
+  '50':
+    utility: next
+    material: ARROW
+    title: "&x&F&F&A&7&5&1Page suivante"
+    description:
+      - "&7Cliquez ici pour aller à la page suivante"
+    replacement:
+      material: GRAY_STAINED_GLASS_PANE
+      title: " "
+      description: {}
+  '51':
+    utility: barrier
+    material: GRAY_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '52':
+    utility: barrier
+    material: GRAY_STAINED_GLASS_PANE
+    title: " "
+    description: {}
+  '53':
+    utility: close
+    material: BARRIER
+    title: "&x&F&F&A&7&5&1Quitter l'Hôtel des Ventes"
+    description: {}

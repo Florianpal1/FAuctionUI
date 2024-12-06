@@ -1,5 +1,6 @@
 gui:
   size: 27
+  type: CHEST
   name: "Confirmation of purchase of an item."
   title-true: "&eConfirm the purchase of {Item}."
   title-false: "&eCancel."

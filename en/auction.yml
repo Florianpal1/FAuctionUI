@@ -1,6 +1,7 @@
 gui:
   size: 54
-  name: "Auction house {Page}/{TotalPage}"
+  type: CHEST
+  name: "Auction House {Page}/{TotalPage}"
   title: "&eItem : &6{ItemName}"
   replaceTitle: true
   description:
@@ -152,15 +153,15 @@ block:
     title: "-"
     description: {}
   '45':
-    utility: expire
+    utility: expireGui
     material: CHEST_MINECART
     title: "&cCollect your expired items"
     description: {}
   '46':
-    utility: barrier
-    material: AIR
-    title: "-"
-    description: {}
+    utility: historicGui
+    material: WRITABLE_BOOK
+    title: "&cSee our item historic"
+    description: { }
   '47':
     utility: barrier
     material: AIR
@@ -200,21 +201,18 @@ block:
       title: "-"
       description: {}
   '51':
-    utility: barrier
-    material: AIR
-    title: "-"
-    description: {}
+    utility: category
+    material: BOOK
+    title: "&5Filter."
+    description:
+      - "&eClick here to change filter"
+      - "&eCurrent filter : {categoryDisplayName}"
   '52':
     utility: player
     material: NETHER_STAR
     title: "&5My Items"
     description:
       - "&eClick here to see your items for sale"
-    replacement:
-      material: NETHER_STAR
-      title: "&5Back to the auction house"
-      description:
-        - "&eClick here to return to the auction house"
   '53':
     utility: close
     material: BARRIER

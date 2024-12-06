@@ -130,7 +130,7 @@ block:
     title: " "
     description: {}
   '45':
-    utility: player
+    utility: auctionGui
     material: BARRIER
     title: "&x&F&F&A&7&5&1Retour"
     description:

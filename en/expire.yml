@@ -1,5 +1,6 @@
 gui:
   size: 54
+  type: CHEST
   name: "Auction House: Expired Items"
   title: "&eItem : &6{ItemName}"
   replaceTitle: true
@@ -154,7 +155,7 @@ block:
   '45':
     utility: auctionGui
     material: CHEST
-    title: "Return to the auction house"
+    title: "&cReturn to the auction house."
     description: {}
   '46':
     utility: barrier
@@ -173,7 +174,7 @@ block:
     description:
       - "&eClick here to return to the previous page"
     replacement:
-      material: GRAY_STAINED_GLASS_PANE
+      material: AIR
       title: "-"
       description: {}
   '49':

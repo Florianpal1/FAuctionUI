@@ -1,151 +1,168 @@
 gui:
   size: 54
-  name: "Hôtel des ventes {Page}/{TotalPage}"
-  title: "&x&F&F&A&7&5&1{ItemName}"
+  type: CHEST
+  name: "Historique {Page}/{TotalPage}"
+  title: "&eItem : &6{ItemName}"
+  replaceTitle: true
   description:
+    - "&5Vendu par : &6{OwnerName}"
+    - "&5Prix : &6{Price}"
+    - "&5Acheté par : &6{BuyerName}"
+    - "&5Lore :"
     - "{lore}"
-    - ""
-    - "&7Vendu par : &x&F&F&E&2&5&9{OwnerName}"
-    - "&7Prix : &x&F&F&E&2&5&9{Price} Suns"
-    - "&7Expirera le : &x&F&F&E&2&5&9{ExpireTime}"
 block:
   '0':
     utility: barrier
-    material: WHITE_STAINED_GLASS_PANE
+    material: GRAY_STAINED_GLASS_PANE
     title: " "
     description: {}
   '1':
-    utility: auction
+    utility: barrier
+    material: GRAY_STAINED_GLASS_PANE
+    title: " "
+    description: {}
   '2':
-    utility: auction
+    utility: barrier
+    material: GRAY_STAINED_GLASS_PANE
+    title: " "
+    description: {}
   '3':
-    utility: auction
+    utility: barrier
+    material: GRAY_STAINED_GLASS_PANE
+    title: " "
+    description: {}
   '4':
-    utility: auction
+    utility: barrier
+    material: GRAY_STAINED_GLASS_PANE
+    title: " "
+    description: {}
   '5':
-    utility: auction
+    utility: barrier
+    material: GRAY_STAINED_GLASS_PANE
+    title: " "
+    description: {}
   '6':
-    utility: auction
+    utility: barrier
+    material: GRAY_STAINED_GLASS_PANE
+    title: " "
+    description: {}
   '7':
-    utility: auction
+    utility: barrier
+    material: GRAY_STAINED_GLASS_PANE
+    title: " "
+    description: {}
   '8':
     utility: barrier
-    material: WHITE_STAINED_GLASS_PANE
+    material: GRAY_STAINED_GLASS_PANE
     title: " "
     description: {}
   '9':
     utility: barrier
-    material: WHITE_STAINED_GLASS_PANE
+    material: GRAY_STAINED_GLASS_PANE
     title: " "
     description: {}
   '10':
-    utility: auction
+    utility: historic
   '11':
-    utility: auction
+    utility: historic
   '12':
-    utility: auction
+    utility: historic
   '13':
-    utility: auction
+    utility: historic
   '14':
-    utility: auction
+    utility: historic
   '15':
-    utility: auction
+    utility: historic
   '16':
-    utility: auction
+    utility: historic
   '17':
     utility: barrier
-    material: WHITE_STAINED_GLASS_PANE
+    material: GRAY_STAINED_GLASS_PANE
     title: " "
     description: {}
   '18':
     utility: barrier
-    material: WHITE_STAINED_GLASS_PANE
+    material: GRAY_STAINED_GLASS_PANE
     title: " "
     description: {}
   '19':
-    utility: auction
+    utility: historic
   '20':
-    utility: auction
+    utility: historic
   '21':
-    utility: auction
+    utility: historic
   '22':
-    utility: auction
+    utility: historic
   '23':
-    utility: auction
+    utility: historic
   '24':
-    utility: auction
+    utility: historic
   '25':
-    utility: auction
+    utility: historic
   '26':
     utility: barrier
-    material: WHITE_STAINED_GLASS_PANE
+    material: GRAY_STAINED_GLASS_PANE
     title: " "
     description: {}
   '27':
     utility: barrier
-    material: WHITE_STAINED_GLASS_PANE
+    material: GRAY_STAINED_GLASS_PANE
     title: " "
     description: {}
   '28':
-    utility: auction
+    utility: historic
   '29':
-    utility: auction
+    utility: historic
   '30':
-    utility: auction
+    utility: historic
   '31':
-    utility: auction
+    utility: historic
   '32':
-    utility: auction
+    utility: historic
   '33':
-    utility: auction
+    utility: historic
   '34':
-    utility: auction
+    utility: historic
   '35':
     utility: barrier
-    material: WHITE_STAINED_GLASS_PANE
+    material: GRAY_STAINED_GLASS_PANE
     title: " "
     description: {}
   '36':
     utility: barrier
-    material: WHITE_STAINED_GLASS_PANE
+    material: GRAY_STAINED_GLASS_PANE
     title: " "
     description: {}
   '37':
-    utility: auction
+    utility: historic
   '38':
-    utility: auction
+    utility: historic
   '39':
-    utility: auction
+    utility: historic
   '40':
-    utility: auction
+    utility: historic
   '41':
-    utility: auction
+    utility: historic
   '42':
-    utility: auction
+    utility: historic
   '43':
-    utility: auction
+    utility: historic
   '44':
     utility: barrier
-    material: WHITE_STAINED_GLASS_PANE
+    material: GRAY_STAINED_GLASS_PANE
     title: " "
     description: {}
   '45':
-    utility: player
-    material: CHEST
-    title: "&x&F&F&A&7&5&1Mes objets en vente"
-    description:
-      - "&7Cliquez ici pour voir vos objets actuellement en vente"
-    replacement:
-      material: BARRIER
-      title: "&x&F&F&A&7&5&1Retour à l'Hôtel des Ventes"
-      description:
-        - "&7Cliquez ici pour retourner à l'Hôtel des Ventes"
-  '46':
     utility: expireGui
     material: CHEST_MINECART
     title: "&x&F&F&A&7&5&1Mes objets expirés"
     description: 
       - "&7Cliquez ici pour voir vos objets expirés non vendus"
+  '46':
+    utility: barrier
+    material: GRAY_STAINED_GLASS_PANE
+    title: " "
+    description: {}
   '47':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
@@ -184,19 +201,19 @@ block:
       title: " "
       description: {}
   '51':
-    utility: historicGui
-    material: WRITABLE_BOOK
-    title: "&cPour voir votre historique de vente."
-    description: { }
-  '52':
     utility: category
     material: BOOK
     title: "&5Filtre."
     description:
       - "&eCliquez pour changer de filtre"
       - "&eFiltre actuel : {categoryDisplayName}"
+  '52':
+    utility: auctionGui
+    material: CHEST
+    title: "&cRetourner à l'hotel des ventes."
+    description: { }
   '53':
     utility: close
     material: BARRIER
-    title: "&x&F&F&A&7&5&1Quitter l'Hôtel des Ventes"
+    title: "Fermer."
     description: {}

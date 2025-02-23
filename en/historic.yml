@@ -1,65 +1,67 @@
+version: 1
 gui:
   size: 54
   type: CHEST
   name: "Historic {Page}/{TotalPage}"
   title: "&eItem : &6{ItemName}"
-  replaceTitle: true
+  replaceTitle: false
   description:
     - "&5Sold by : &6{OwnerName}"
     - "&5Price : &6{Price}"
     - "&5Buy By : &6{BuyerName}"
+    - "&5Buy At : &6{BuyDate}"
     - "&5Lore :"
     - "{lore}"
 block:
   '0':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '1':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '2':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '3':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '4':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '5':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '6':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '7':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '8':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '9':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '10':
     utility: historic
@@ -78,12 +80,12 @@ block:
   '17':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '18':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '19':
     utility: historic
@@ -102,12 +104,12 @@ block:
   '26':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '27':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '28':
     utility: historic
@@ -126,12 +128,12 @@ block:
   '35':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '36':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '37':
     utility: historic
@@ -150,7 +152,7 @@ block:
   '44':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '45':
     utility: expireGui
@@ -160,22 +162,22 @@ block:
   '46':
     utility: barrier
     material: AIR
-    title: "-"
+    title: " "
     description: {}
   '47':
     utility: barrier
     material: AIR
-    title: "-"
+    title: " "
     description: {}
   '48':
-    utility: next
+    utility: previous
     material: ARROW
     title: "&5Previous Page"
     description:
       - "&eClick here to return to previous page"
     replacement:
       material: AIR
-      title: "-"
+      title: " "
       description: {}
   '49':
     utility: barrier
@@ -198,7 +200,7 @@ block:
       - "&eClick here to go to the next page"
     replacement:
       material: AIR
-      title: "-"
+      title: " "
       description: {}
   '51':
     utility: category

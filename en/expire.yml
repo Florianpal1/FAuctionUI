@@ -1,9 +1,10 @@
+version: 1
 gui:
   size: 54
   type: CHEST
   name: "Auction House: Expired Items"
   title: "&eItem : &6{ItemName}"
-  replaceTitle: true
+  replaceTitle: false
   description:
     - "&5Sales of : &6{OwnerName}"
     - "&5Price : &6{Price}"
@@ -14,52 +15,52 @@ block:
   '0':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '1':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '2':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '3':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '4':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '5':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '6':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '7':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '8':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '9':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '10':
     utility: expire
@@ -78,12 +79,12 @@ block:
   '17':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '18':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '19':
     utility: expire
@@ -102,12 +103,12 @@ block:
   '26':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '27':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '28':
     utility: expire
@@ -126,12 +127,12 @@ block:
   '35':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '36':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '37':
     utility: expire
@@ -150,7 +151,7 @@ block:
   '44':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '45':
     utility: auctionGui
@@ -158,14 +159,14 @@ block:
     title: "&cReturn to the auction house."
     description: {}
   '46':
-    utility: barrier
-    material: AIR
-    title: "-"
-    description: {}
+    utility: historicGui
+    material: WRITABLE_BOOK
+    title: "&cSee our item historic"
+    description: { }
   '47':
     utility: barrier
     material: AIR
-    title: "-"
+    title: " "
     description: {}
   '48':
     utility: previous
@@ -175,7 +176,7 @@ block:
       - "&eClick here to return to the previous page"
     replacement:
       material: AIR
-      title: "-"
+      title: " "
       description: {}
   '49':
     utility: barrier
@@ -194,20 +195,23 @@ block:
       - "&eClick here to go to the next page"
     replacement:
       material: AIR
-      title: "-"
+      title: " "
       description: {}
   '51':
-    utility: barrier
-    material: AIR
-    title: "-"
-    description: {}
+    utility: category
+    material: BOOK
+    title: "&5Filter."
+    description:
+      - "&eClick here to change filter"
+      - "&eCurrent filter : {categoryDisplayName}"
   '52':
-    utility: barrier
-    material: AIR
-    title: "-"
-    description: {}
+    utility: player
+    material: NETHER_STAR
+    title: "&5My Items"
+    description:
+      - "&eClick here to see your items for sale"
   '53':
-    utility: barrier
-    material: AIR
-    title: "-"
+    utility: close
+    material: BARRIER
+    title: "Close"
     description: {}

@@ -1,3 +1,4 @@
+version: 1
 gui:
   size: 54
   type: CHEST
@@ -14,52 +15,52 @@ block:
   '0':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '1':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '2':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '3':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '4':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '5':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '6':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '7':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '8':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '9':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '10':
     utility: auction
@@ -78,12 +79,12 @@ block:
   '17':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '18':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '19':
     utility: auction
@@ -102,12 +103,12 @@ block:
   '26':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '27':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '28':
     utility: auction
@@ -126,12 +127,12 @@ block:
   '35':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '36':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '37':
     utility: auction
@@ -150,7 +151,7 @@ block:
   '44':
     utility: barrier
     material: GRAY_STAINED_GLASS_PANE
-    title: "-"
+    title: " "
     description: {}
   '45':
     utility: expireGui
@@ -160,12 +161,12 @@ block:
   '46':
     utility: barrier
     material: AIR
-    title: "-"
+    title: " "
     description: {}
   '47':
     utility: barrier
     material: AIR
-    title: "-"
+    title: " "
     description: {}
   '48':
     utility: previous
@@ -175,7 +176,7 @@ block:
       - "&eClick here to return to previous page"
     replacement:
       material: AIR
-      title: "-"
+      title: " "
       description: {}
   '49':
     utility: barrier
@@ -198,12 +199,12 @@ block:
       - "&eClick here to go to the next page"
     replacement:
       material: AIR
-      title: "-"
+      title: " "
       description: {}
   '51':
     utility: barrier
     material: AIR
-    title: "-"
+    title: " "
     description: {}
   '52':
     utility: auctionGui
